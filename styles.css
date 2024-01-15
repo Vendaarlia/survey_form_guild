@@ -1,0 +1,86 @@
+body {
+    background: url(https://images.unsplash.com/photo-1614346538769-f6d05af37383?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: none;
+    font-family: poppins, sans-serif;
+    font-size: 1rem;
+  }
+  
+  main {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  label {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  h1, p {
+    color: #fff;
+  }
+  
+  p {
+    text-transform: capitalize;
+  }
+  
+  #title {
+    text-align: center;
+    padding-top: 5%;
+    margin: 0;
+  }
+  
+  #description {
+    text-align: center;
+    margin-top: 1%;
+    font-style: italic;
+  }
+  
+  #survey-form {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 40%;
+    margin: auto;
+    padding: 5%;
+  }
+  
+  .input-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .stylis {
+    height: 40px;
+    padding: 2%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+  }
+  
+  .select-style {
+    height: 40px;
+    padding: 2%;
+    color: #000;
+    border-radius: 5px;
+  }
+  
+  .comment-cok {
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+  }
+  
+  .btn-submit {
+    color: #fff;
+    background-color: #909;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 5px;
+    border: 0;
+  }
+  
+  .btn-submit:hover {
+    background-color: #907; 
+  }
+  
+  .comment {
+    margin-top: 5%;
+  }

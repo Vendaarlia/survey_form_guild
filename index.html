@@ -1,0 +1,80 @@
+<!DOCTPE html>
+<html lang="en">
+<head>
+  <meta lang="en">
+  <meta chartset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./styles.css">
+  <title>survey form guild</title>
+</head>
+<body>
+  <main>
+    <h1 id="title">Survey Guild Ride Dungeon</h1>
+    <p id="description">Everything and Anything guild made a survey for explore dungeon</p>
+    <section>
+      <form id="survey-form">
+        <div class="input-wrap">
+          <label id="name-label" for="name">NAME</label>
+        <input id="name" class="stylis" name="name" type="text" placeholder="your char name" required>
+        </div>
+        <div class="input-wrap">
+          <label id="email-label" for="email">EMAIL</label>
+        <input id="email" class="stylis" name="email" type="email" placeholder="licensied account" required>
+        </div>
+        <div class="input-wrap">
+          <label id="number-label" for="age">AGE</label>
+        <input id="number" class="stylis" name="age" type="number" placeholder="your age traveler" min="-90" max="2000" required>
+        </div>
+        <div class="input-wrap">
+          <p>what you think can we celar the dungeon???</p>
+          <select id="dropdown" class="select-style" name="dropdown" type="dropdown">
+            <option disabled selected value>what you thing traveler</option>
+            <option value="GOOO">lets... Gooo konqueror</option>
+            <option value="NO">no... I'm afraid dead</option>
+          </select>
+        </div>
+        <div class="input-wrap">
+          <p>what your consider for Everything and Anything guild</p>
+          <label>
+            <input class="stylis-radio" name="thought" type="radio" value="heaven" checked>HEAVEN 
+          </label>
+          <label>
+            <input class="stylis-radio" name="thought" type="radio" value="eart">EART 
+          </label>
+          <label>
+            <input class="stylis-radio" name="thought" type="radio" value="hell">HELL 
+          </label>
+        </div>
+        <div class="input-wrap">
+          <p>why your become traveler???</p>
+          <select id="dropdown" class="select-style" name="dropdown" type="dropdown">
+            <option disabled selected value>come on, don't be shy!!!</option>
+            <option value="gold">money money money beby... $$$</option>
+            <option value="experienc">in this life i will be wish man</option>
+            <option value="pride">sex, alcohol, ranking, blood</option>
+          </select>
+        </div>
+        <div class="input-wrap">
+          <p>Everything and Anything guild has many Partys your from???</p>
+          <label>
+            <input class="stylis-radio" name="thought" type="checkbox" value="mentalill">Mental Illnes Pride
+          </label>
+          <label>
+            <input class="stylis-radio" name="thought" type="checkbox" value="bloodvirgint">Blood Virgint
+          </label>
+          <label>
+            <input class="stylis-radio" name="thought" type="checkbox" value="farawaypaladin">Far Away Paladin
+          </label>
+        </div>
+        <div class="input-wrap comment">
+          <p>reveal all your sins</p>
+          <textarea id="comment" class="comment-cok" name="comment" placeholder="count your sins traveler"></textarea>
+        </div>
+        <div class="input-wrap">
+          <button type="submit" id="submit" class="btn-submit">submit</button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
