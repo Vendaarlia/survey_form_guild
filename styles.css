@@ -13,6 +13,10 @@ body {
   
   label {
     color: #fff;
+    font-size: 0.9rem;
+  }
+
+  .label-bio {
     font-size: 1.2rem;
   }
   
@@ -22,6 +26,7 @@ body {
   
   p {
     text-transform: capitalize;
+    font-size: 0.8rem;
   }
   
   #title {
